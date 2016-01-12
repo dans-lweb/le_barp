@@ -72,9 +72,15 @@
 						)); ?>
 
 					</nav>
+					<div class="upperMenu">
+						<a href="">Aller au Menu |</a>
+						<a href="">Aller au Contenu |</a>
+						<a href="">Accessibilité</a>
+
+					</div>
 					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 					</div>
-					
+
 				</div>
 
 			</header>
