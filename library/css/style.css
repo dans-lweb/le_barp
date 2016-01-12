@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'din_lightregular';
+    src: url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.eot');
+    src: url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.woff2') format('woff2'),
+         url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.woff') format('woff'),
+         url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.ttf') format('truetype'),
+         url('http://localhost/le_barp/wp-content/themes/le_barp/library/font/ufonts.com_din-light-webfont.svg#din_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name:
@@ -85,7 +101,8 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0; 
+}
 
 /* ==========================================================================
    Links
@@ -1973,7 +1990,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "din_lightregular","Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; 
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
