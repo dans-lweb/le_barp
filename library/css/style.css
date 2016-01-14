@@ -417,23 +417,28 @@ textarea {
   vertical-align: top;
   /* 2 */ }
 
+#searchform {
+  float:right;
+  margin-top:68px;
+}
+
 #searchform input{
-  width:50%;
+  width:200px;
   border:1px solid #0099a9;
   float:left;
-  height:38px;
+  height:28px;
 }
 
 #searchsubmit {
   background-color: #0099a9; 
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 4px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    height:38px;
+    height:30px;
 }
 /* ==========================================================================
    Tables
@@ -2111,6 +2116,11 @@ HEADER STYLES
 .header img{
   width:300px;
 }
+
+#inner-header a{
+  float:left;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -2150,6 +2160,23 @@ and more scalable.
     .nav li ul.children li a {
       padding-left: 30px; }
 
+#menu-main-nav{
+  background-color: #8c3c67;
+}
+  
+  #menu-main-nav li{
+    border-left:1px dotted #ddd;
+    text-transform:uppercase;
+    float:left;
+  }
+
+  #menu-main-nav li:last-child{
+    border-right:1px dotted #ddd;
+  }
+
+  #menu-main-nav li:first-child{
+    margin-left:80px;
+  }
 /* end .nav */
 /*********************
 POSTS & CONTENT STYLES

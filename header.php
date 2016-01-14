@@ -47,16 +47,21 @@
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
 				<div id="inner-header" class="wrap cf">
-					<div class="col-xs-6">
+					
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/logo_barp.png"/></a>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
-					</div>
+					
 
-					<div class="col-xs-6">
-					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					
+									
+					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+				</div>
+
+				<div id="inner-header" class="wrap cf">
+				<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -72,15 +77,6 @@
 						)); ?>
 
 					</nav>
-					<div class="upperMenu">
-						<a href="">Aller au Menu |</a>
-						<a href="">Aller au Contenu |</a>
-						<a href="">Accessibilité</a>
-
-					</div>
-					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-					</div>
-
 				</div>
 
 			</header>
