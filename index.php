@@ -48,15 +48,16 @@
 							    ?>
 							    <li>
 									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-								</li> <?php
-							    echo tribe_get_start_date() .' '. tribe_get_venue();
+									<p><?php
+							    echo tribe_get_start_date() .' '. tribe_get_venue(); } ?></p>
+								</li> 
 							    
-							 } ?>
+							 
 								
 
 							</ul>
 
-							<a href="http://localhost/le_barp/index.php/events/"> <span style="font-family:'Arial';"> >>> </span> Voir tout l'agenda </a>
+							<p><a href="http://localhost/le_barp/index.php/events/"> <span style="font-family:'Arial';"> > </span> Voir tout l'agenda </a> </p>
 					</div>
 
 					<div class="col-sm-8 articles">

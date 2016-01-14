@@ -2514,7 +2514,48 @@ ACCUEIL
       padding:50px 0;
     }
 
+.agenda, .articles{
+  padding:0;
+}
 
+.agenda {
+  background-color: #ba2454;
+  color:white;
+}
+
+  .agenda h3{
+    background-color: #fea500;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .agenda li{
+    padding:10px 40px;
+  }
+
+    .agenda li a{
+      text-decoration:none;
+      color:white;
+      font-weight: bold;
+    }
+
+    .agenda li p{
+      margin-top:5px;
+    }
+
+  .agenda > p:last-child{
+    text-align:right;
+  }
+    .agenda p:last-child a{
+      text-decoration: none;
+      color:white;
+      padding-right:15px;
+    }
+
+.articles article{
+  padding:0;
+}
 /*********************
 SIDEBARS & ASIDES
 *********************/
