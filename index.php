@@ -27,6 +27,38 @@
 				</div>
 				<div id="inner-content" class="wrap cf">
 
+					<div class="col-sm-4 agenda">
+						<h3> Agenda </h3>
+						<ul>
+							<?php
+
+							$events = tribe_get_events( array(
+							    'posts_per_page' => 5,
+							    'start_date' => current_time( 'Y-m-d' ),
+							) );
+							 
+							// Loop through the events: set up each one as
+							// the current post then use template tags to
+							// display the title and content
+							foreach ( $events as $post ) {
+							    setup_postdata( $post );
+							 
+							    // This time, let's throw in an event-specific
+							    // template tag to show the date after the title!
+							    ?>
+							    <li>
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</li> <?php
+							    echo tribe_get_start_date() .' '. tribe_get_venue();
+							    
+							 } ?>
+								
+
+							</ul>
+					</div>
+
+					<div class="col-sm-8 articles">
+
 						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
