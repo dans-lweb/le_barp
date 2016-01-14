@@ -1,12 +1,44 @@
 <?php get_header(); ?>
 
 			<div id="content">
+				<div id="inner-content" class="wrap cf">
 
+					<div class="col-sm-7 home_slider">
+
+					<?php 
+					    echo do_shortcode("[metaslider id=15]"); 
+					?>
+					</div>
+
+					<div class="col-sm-5 sub-menu">
+						<ul >
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 				<div id="inner-content" class="wrap cf">
 
 						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+							
+							<!--  <?php if (in_category('enfance_jeunesse')) {?> -->
+
+							<!-- <div class="home-post"> -->
+
+							<!--  <?php } else { ?> -->
+
+							           <!-- <div style="display:none;"> -->
+							<!-- <?php } ?> -->
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
