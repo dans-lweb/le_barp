@@ -190,6 +190,11 @@ function bones_register_sidebars() {
 	*/
 } // don't remove this bracket!
 
+function new_excerpt_length($length) {
+ return 40;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
 
 /************* COMMENT LAYOUT *********************/
 
@@ -245,3 +250,5 @@ function bones_fonts() {
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
+
+

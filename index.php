@@ -94,23 +94,22 @@
 
 								<section class="entry-content cf">
 									
-									<?php the_content(); ?>
+									<?php the_excerpt(); ?>
+
 								</section>
 
 								<footer class="article-footer cf">
 									<p class="byline entry-meta vcard"> <i class="fa fa-calendar"></i>
 
-                                                                        <?php printf( __( 'Posted', 'bonestheme' ).' %1$s %2$s',
+                                                                        <?php printf('Le'.' '.' %1$s %2$s',
                        								/* the time the post was published */
                        								'<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
                        								/* the author of the post */
                        								'<span style="display:none;" class="by">'.__( 'by', 'bonestheme').'</span> <span style="display:none;" class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
                     							); ?>
+                    				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"> <i class="fa fa-arrow-circle-o-right"></i>Voir la suite de l'article</a>
 									</p>
-									<p class="footer-comment-count">
-										<?php comments_number( __( '<span>No</span> Comments', 'bonestheme' ), __( '<span>One</span> Comment', 'bonestheme' ), __( '<span>%</span> Comments', 'bonestheme' ) );?>
-									</p>
-
+									
 
 								</footer>
 
