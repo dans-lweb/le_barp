@@ -2514,6 +2514,10 @@ ACCUEIL
       padding:50px 0;
     }
 
+    .sub-menu ul li:nth-child(3n) {
+    width: 145px; 
+  }
+
 .agenda, .articles{
   padding:0;
 }
@@ -2553,9 +2557,14 @@ ACCUEIL
       padding-right:15px;
     }
 
-.articles article{
-  padding:0;
-}
+  .articles article{
+    padding:0;
+  }
+
+  .articles .article-header img{
+    width:100%;
+    height: auto;
+  }
 /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -2956,3 +2965,9 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
