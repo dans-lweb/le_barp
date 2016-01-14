@@ -191,7 +191,7 @@ function bones_register_sidebars() {
 } // don't remove this bracket!
 
 function new_excerpt_length($length) {
- return 40;
+ return 30;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
