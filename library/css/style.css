@@ -2185,7 +2185,7 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 #content {
-  margin-top: 1.5em; }
+  margin-top: 0; }
 
 .hentry {
   background-color: white;
@@ -2491,6 +2491,29 @@ COMMENT FORM STYLES
 /* no comments */
 .nocomments {
   margin: 0 20px 1.1em; }
+
+/******************************************************************
+ACCUEIL
+******************************************************************/
+
+.home_slider, .sub-menu{
+  padding:0;
+}
+  
+  .sub-menu ul{
+    margin-top: 0;
+  }
+
+    .sub-menu ul li{
+      width:144px;
+      height: 144px;
+      float:left;
+      background-color: #0099a9;
+      color:white;
+      text-align:center;
+      padding:50px 0;
+    }
+
 
 /*********************
 SIDEBARS & ASIDES
@@ -2805,9 +2828,9 @@ query for retina AND a certain size if you want. Go Nuts.
   like this:
   
   .icon {
-  	width: 24px;
-  	height: 24px;
-  	background: url(img/test.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    background: url(img/test.png) no-repeat;
   }
   
   For retina screens, we have to make some adjustments, so that image
@@ -2815,8 +2838,8 @@ query for retina AND a certain size if you want. Go Nuts.
   dimensions, this is what we would put in our retina stylesheet:
   
   .icon {
-  	background: url(img/test@2x.png) no-repeat;
-  	background-size: 24px 24px;
+    background: url(img/test@2x.png) no-repeat;
+    background-size: 24px 24px;
   }
   
   So, you would create the same icon, but at double the resolution, meaning 

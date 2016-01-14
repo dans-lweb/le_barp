@@ -31,6 +31,8 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<link rel="stylesheet" href="http://localhost/le_barp/wp-content/themes/le_barp/library/css/fa/css/font-awesome.min.css">
+
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
