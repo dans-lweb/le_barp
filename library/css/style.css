@@ -2503,16 +2503,47 @@ ACCUEIL
     .sub-menu ul li{
       width:144px;
       height: 144px;
-      float:left;
       background-color: #0099a9;
       color:white;
       text-align:center;
       padding:50px 0;
+      float:left;
     }
 
     .sub-menu ul li:nth-child(3n) {
     width: 145px; 
   }
+
+      @media(max-width:1132px){
+        .sub-menu ul li{
+          width:105px;
+          height: 105px;
+        }
+
+        .sub-menu ul li:nth-child(3n) {
+          width: 106px;
+        }
+      }
+
+      @media(max-width:1090px){
+        .sub-menu ul li{
+          width:84px!important;
+          height: 84px!important;
+          padding:26px 19px;
+        }
+
+        .sub-menu ul li:last-child{
+          width:88px!important;
+          height: 84px!important;
+          padding:26px 19px;
+        }
+      }
+
+      @media(max-width:844px){
+        .sub-menu ul li{
+          display:none;
+        }
+      }
 
 .agenda, .articles{
   padding:0;

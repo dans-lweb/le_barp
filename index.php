@@ -27,7 +27,7 @@
 				</div>
 				<div id="inner-content" class="wrap cf">
 
-					<div class="col-md-4 agenda">
+					<div class="col-md-4 col-sm-12 agenda">
 						<h3> Agenda </h3>
 						<ul>
 							<?php
@@ -60,7 +60,7 @@
 							<p><a href="http://localhost/le_barp/index.php/events/"> <span style="font-family:'Arial';"> > </span> Voir tout l'agenda </a> </p>
 					</div>
 
-					<div class="col-md-8 articles">
+					<div class="col-md-8 col-sm-12 articles">
 
 						<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
