@@ -2540,7 +2540,7 @@ ACCUEIL
       }
 
       @media(max-width:844px){
-        .sub-menu ul li{
+        .sub-menu{
           display:none;
         }
       }
