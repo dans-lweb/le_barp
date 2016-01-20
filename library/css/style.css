@@ -55,7 +55,7 @@ main,
 nav,
 section,
 summary {
-  display: block; }
+    display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
@@ -2528,6 +2528,7 @@ ACCUEIL
     padding: 10px 20px;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 32px;
   }
 
   .agenda li{
@@ -2546,6 +2547,7 @@ ACCUEIL
 
   .agenda > p:last-child{
     text-align:right;
+    padding-bottom:21px;
   }
     .agenda p:last-child a{
       text-decoration: none;
@@ -2586,7 +2588,6 @@ ACCUEIL
       background-color: white;
       position: relative;
       top: -4px;
-      height:150px;
 
     }
 
@@ -2641,8 +2642,137 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  background-color: #642340;
+  color: #EAEDF2;
+  position: relative;
+  top: -5px;
+  padding-top: 40px;; }
+
+  .footer h6{
+    font-size:18px;
+    margin-bottom:16px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color:#EAEDF2;
+    font-size:14px;
+  }
+
+  .footer .last-footer-menu{
+    border-left:1px dotted white;
+    margin-top:32px;
+    margin-bottom:10px;
+    margin-left:-1px;
+  }
+
+  .footer h4{
+    margin-top:5px;
+    font-size:25px;
+  }
+
+  .footer .social{
+    padding-bottom:20px;
+  }
+
+   .footer .social li{
+    width:30px;
+    height:30px;
+    margin:0 4px 11px;
+    display:inline-block;
+   }
+
+    .footer .social li i{
+      font-size:20px;
+    }
+
+    .footer .social .fa-rss{
+      background-color:#f8902e;
+      padding:5px 6px ;
+      border-radius:10%;
+    }
+    .footer .social .fa-facebook{
+      background-color:#3a589f;
+      padding:5px 9px ;
+      border-radius:10%;
+    } 
+    .footer .social .fa-twitter{
+      background-color:#45b0e3;
+      padding:5px ;
+      border-radius:10%;
+    } 
+    .footer .social .fa-dribbble{
+      background-color:#da7aaf;
+      padding:5px 6px ;
+      border-radius:10%;
+    } 
+    .footer .social .fa-pinterest{
+      background-color:#cc212a;
+      padding:5px 6px ;
+      border-radius:10%;
+    }
+    .footer .social .fa-linkedin{
+      background-color:#528ee4;
+      padding:5px 6px ;
+      border-radius:10%;
+    }
+    
+  .footer .last-nav {
+  text-align: center;
+  margin-top: 20px;
+   }
+
+    .footer .last-nav li{
+      width:150px;
+      border-right:1px solid white;
+      margin-bottom:10px;
+      padding:5px;
+      display:inline-block;
+    }
+
+      .footer .last-nav li:last-child{
+        border:none;
+      }
+
+@media (max-width:738px){
+  .footer .last-nav li:nth-child(4){
+        border:none;
+      }
+}
+
+@media (max-width:566px){
+  .footer .last-nav li:nth-child(3){
+        border:none;
+      }
+
+  .footer .last-nav li:nth-child(4){
+    border-right:1px solid white;
+  }
+}
+
+@media (max-width:391px){
+  .footer .last-nav li{
+        border:none!important;
+      }
+}
+
+.copyright{
+text-align: center;
+font-size:10px;
+}
+
+  .copyright a{
+    text-decoration: none;
+    color: inherit;
+
+  }
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
 
 /*
 if you checked out the link above:

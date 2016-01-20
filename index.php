@@ -3,14 +3,14 @@
 			<div id="content">
 				<div id="inner-content" class="wrap cf">
 
-					<div class="col-sm-7 home_slider">
+					<div class="col-md-7 col-sm-12 home_slider">
 
 					<?php 
 					    echo do_shortcode("[metaslider id=15]"); 
 					?>
 					</div>
 
-					<div class="col-sm-5 sub-menu">
+					<div class="col-md-5 col-sm-12 sub-menu">
 						<ul >
 							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
 							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
@@ -27,7 +27,7 @@
 				</div>
 				<div id="inner-content" class="wrap cf">
 
-					<div class="col-sm-4 agenda">
+					<div class="col-md-4 agenda">
 						<h3> Agenda </h3>
 						<ul>
 							<?php
@@ -60,9 +60,9 @@
 							<p><a href="http://localhost/le_barp/index.php/events/"> <span style="font-family:'Arial';"> > </span> Voir tout l'agenda </a> </p>
 					</div>
 
-					<div class="col-sm-8 articles">
+					<div class="col-md-8 articles">
 
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+						<main id="main" class="cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							
@@ -75,7 +75,7 @@
 							           <!-- <div style="display:none;"> -->
 							<!-- <?php } ?> -->
 
-							<article class="col-sm-6" id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+							<article class="col-md-6" id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
 								<header class="article-header">
 									<?php if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
@@ -139,7 +139,7 @@
 
 						</main>
 
-					<?php get_sidebar(); ?>
+					
 
 				</div>
 
