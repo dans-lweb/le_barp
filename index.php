@@ -12,15 +12,16 @@
 
 					<div class="col-md-5 col-sm-12 sub-menu">
 						<ul >
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
-							<li> <i class="fa fa-fort-awesome"></i></br>MENU </li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/shovel.svg"></br>PLU </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/pool.svg"></br>PISCINE </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/card.svg"></br>CARTE + </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/plate.svg"></br>MENUS </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/cinema.svg"></br>CINEMAS</br>7<sup>e</sup> ART </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/bin.svg"></br>DÉCHETS </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/balloon.svg"></br>LOUER </br> UNE SALLE </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/write.svg"></br>DÉMARCHES </br> EN LIGNE </a></li>
+							<li> <a href=""><img src="http://localhost/le_barp/wp-content/themes/le_barp/library/images/bus.svg"></br>TRANSPORT </a></li>
+							
 						</ul>
 					</div>
 					<div class="clearfix"></div>

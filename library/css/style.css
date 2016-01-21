@@ -2506,9 +2506,18 @@ ACCUEIL
       background-color: #0099a9;
       color:white;
       text-align:center;
-      padding:50px 0;
+      padding:35px 0;
       float:left;
     }
+      .sub-menu ul li a{
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+      }
+
+      .sub-menu ul li img{
+        margin-bottom: 5px;
+      }
 
     .sub-menu ul li:nth-child(3n) {
     width: 145px; 
