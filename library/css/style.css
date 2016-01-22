@@ -2501,58 +2501,31 @@ ACCUEIL
   }
 
     .sub-menu ul li{
-      width:144px;
-      height: 144px;
       background-color: #0099a9;
       color:white;
       text-align:center;
-      padding:35px 0;
-      float:left;
+      height: 144px;
+      padding-top: 37px;
+     
     }
       .sub-menu ul li a{
         text-decoration: none;
         color:white;
         font-weight: bold;
+        font-family: 'din_lightregular';
       }
 
-      .sub-menu ul li img{
+      .sub-menu ul li svg{
         margin-bottom: 5px;
       }
 
-    .sub-menu ul li:nth-child(3n) {
-    width: 145px; 
-  }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
 
-      @media(max-width:1132px){
-        .sub-menu ul li{
-          width:105px;
-          height: 105px;
-        }
-
-        .sub-menu ul li:nth-child(3n) {
-          width: 106px;
-        }
-      }
-
-      @media(max-width:1090px){
-        .sub-menu ul li{
-          width:84px!important;
-          height: 84px!important;
-          padding:26px 19px;
-        }
-
-        .sub-menu ul li:last-child{
-          width:88px!important;
-          height: 84px!important;
-          padding:26px 19px;
-        }
-      }
-
-      @media(max-width:844px){
-        .sub-menu{
-          display:none;
-        }
-      }
 
 .agenda, .articles{
   padding:0;
@@ -2686,7 +2659,11 @@ FOOTER STYLES
   color: #EAEDF2;
   position: relative;
   top: -5px;
-  padding-top: 40px;; }
+  padding-top: 40px;
+  background-image: url("http://localhost/le_barp/wp-content/themes/le_barp/library/images/deco-footer.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  }
 
   .footer h6{
     font-size:18px;
