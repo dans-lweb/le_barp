@@ -2501,30 +2501,45 @@ ACCUEIL
     margin-top: 0;
   }
 
-    .sub-menu ul li{
+    .sub-menu div{
       background-color: #0099a9;
-      color:white;
       text-align:center;
       padding-top: 37px;
-      height: 144px;
-     
+      height: 140px;
+      transition: all 0.9s ease 0s;
     }
-      .sub-menu ul li a{
+
+    .sub-menu div:hover{
+      background-color: white;
+      }
+
+    .sub-menu div:hover a{
+      color:#0099a9;
+    }
+
+    .sub-menu div:hover svg path, .sub-menu div:hover svg circle{
+      fill:#0099a9;
+    }
+
+      .sub-menu div a{
         text-decoration: none;
         color:white;
         font-weight: bold;
         font-family: 'din_lightregular';
+        transition: all 0.9s ease 0s;
+        
       }
 
-      .sub-menu ul li svg{
+      .sub-menu div svg{
         margin-bottom: 5px;
+        transition: all 0.9s ease 0s;
       }
 
 @media (max-width: 1029px){
-  .sub-menu ul li{
+  .sub-menu div{
     height:105px!important;
-    padding-top:25px;
-    font-size:13px;
+    padding-top:25px!important;
+    font-size:13px!important;
   }
 }
 /*********************
@@ -3177,6 +3192,94 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+.sub-menu div {
+    background-color: #0099a9;
+    text-align: center;
+    padding-top: 37px;
+    height: 140px;
+    transition: all 0.3s ease 0s; }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+.sub-menu div:hover {
+    background-color: white;
+    color: black; }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+.sub-menu div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'din_lightregular'; }
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
+/*********************
+PRINT STYLESHEET
+Feel free to customize this. Remember to add things that won't make
+sense to print at the bottom. Things like nav, ads, and forms should
+be set to display none.
+*********************/
+
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make
