@@ -18,7 +18,7 @@
 						)); ?>
 					</nav> -->
 
-					<div class="col-sm-3  col-xs-6 footer-menu">
+					<div class="col-sm-2 col-sm-offset-1  col-xs-6 footer-menu">
 
 						<h6>Votre mairie</h6>
 						<ul>
@@ -32,7 +32,7 @@
 						</ul>
 					</div>
 
-					<div class="col-sm-3  col-xs-6 footer-menu">
+					<div class="col-sm-2  col-xs-6 footer-menu">
 
 						<h6>Découvrir Le Barp</h6>
 						<ul>
