@@ -2496,7 +2496,18 @@ ACCUEIL
 .home_slider, .sub-menu{
   padding:0;
 }
+
+.home_slider, .metaslider .slides img{
+  height:284px;
+}
   
+.top-accueil .col-md-9 {
+  width:70%;
+}
+
+.top-accueil .col-md-3 {
+  width:30%;
+}
   .sub-menu ul{
     margin-top: 0;
   }
@@ -2504,8 +2515,9 @@ ACCUEIL
     .sub-menu div{
       background-color: #0099a9;
       text-align:center;
-      padding-top: 37px;
-      height: 140px;
+      padding-top: 18px;
+      height: 95px;
+      font-size:12px;
       transition: all 0.9s ease 0s;
     }
 
@@ -2535,20 +2547,21 @@ ACCUEIL
         transition: all 0.9s ease 0s;
       }
 
+@media (max-width:992px){
+  .top-accueil .col-md-9, .top-accueil .col-md-3{
+    width:100%;
+  }
+
+  .home_slider, .metaslider .slides img{
+  height:auto;
+}
+
+}
 @media (max-width: 1029px){
   .sub-menu div{
-    height:105px!important;
-    padding-top:25px!important;
-    font-size:13px!important;
-  }
+    padding:15px 2px;
+ }
 }
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
 
 .agenda, .articles{
   padding:0;
@@ -3192,97 +3205,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
 
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
 
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-.sub-menu div {
-    background-color: #0099a9;
-    text-align: center;
-    padding-top: 37px;
-    height: 140px;
-    transition: all 0.3s ease 0s; }
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-.sub-menu div:hover {
-    background-color: white;
-    color: black; }
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-.sub-menu div a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-family: 'din_lightregular'; }
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/
-
-/*********************
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*********************/

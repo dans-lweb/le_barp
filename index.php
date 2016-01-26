@@ -1,18 +1,18 @@
 <?php get_header(); ?>
 
 			<div id="content">
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="wrap cf top-accueil">
 
-					<div class="col-md-7 col-sm-12 home_slider">
+					<div class="col-md-9 col-sm-12 home_slider">
 
 					<?php 
 					    echo do_shortcode("[metaslider id=15]"); 
 					?>
 					</div>
 
-					<div class="col-md-5 col-xs-12 sub-menu">
+					<div class="col-md-3 col-xs-12 sub-menu">
 						
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 								<svg version="1.1" id="shovel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 								<path fill="#FFFFFF" d="M25.233,17.758l-2.063,2.063l-8.125-8.625l-1-5.875l-3.375-3.875L2.421,9.57l4.25,3.875l5,0.125l8.625,9.5
@@ -20,7 +20,7 @@
 									l1.25,1.25l0.625,3.625L10.546,11.445z"/>
 								</svg></br>PLU </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 								<svg version="1.1" id="pool" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 								<g>
@@ -37,7 +37,7 @@
 								</g>
 								</svg></br>PISCINE </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 								<svg version="1.1" id="card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 								<g>
@@ -52,7 +52,7 @@
 								</g>
 								</svg></br>CARTE + </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 									<svg version="1.1" id="plate" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 										 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 									<g>
@@ -76,7 +76,7 @@
 									</g>
 									</svg></br>MENUS </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 									<svg version="1.1" id="cinema" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 										 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 									<g>
@@ -91,7 +91,7 @@
 									</g>
 									</svg></br>CINEMAS</br>7<sup>e</sup> ART </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 									<svg version="1.1" id="bin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 										 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 									<g>
@@ -112,7 +112,7 @@
 									</g>
 									</svg></br>DÉCHETS </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href=""><svg version="1.1" id="balloon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<div class="col-md-4 col-xs-4"> <a href=""><svg version="1.1" id="balloon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 													 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 												<g>
 													<g>
@@ -136,7 +136,7 @@
 												</g>
 												</svg></br>LOUER </br> UNE SALLE </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 								<svg version="1.1" id="write" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="31.622px" height="31.622px" viewBox="0 0 31.622 31.622" enable-background="new 0 0 31.622 31.622" xml:space="preserve">
 								<g>
@@ -177,7 +177,7 @@
 								</g>
 								</svg></br>DÉMARCHES </br> EN LIGNE </a></div>
 
-							<div class="col-md-4 col-xs-1"> <a href="">
+							<div class="col-md-4 col-xs-4"> <a href="">
 								<svg version="1.1" id="bus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="53.684px" height="31.622px" viewBox="0 0 53.684 31.622" enable-background="new 0 0 53.684 31.622" xml:space="preserve">
 								<g>
@@ -342,6 +342,7 @@
 
 				</div>
 
+				</div>
 			</div>
 
 
