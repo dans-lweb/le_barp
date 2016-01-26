@@ -78,12 +78,12 @@
 						</p>
 
 						<ul class="social">
-							<li> <a href=""><i class="fa fa-rss"></i>
+							<!-- <li> <a href=""><i class="fa fa-rss"></i> -->
 							<li> <a href=""><i class="fa fa-facebook"></i>
-							<li> <a href=""><i class="fa fa-twitter"></i>
+							<!-- <li> <a href=""><i class="fa fa-twitter"></i>
 							<li> <a href=""><i class="fa fa-dribbble"></i>
 							<li> <a href=""><i class="fa fa-pinterest"></i>
-							<li> <a href=""><i class="fa fa-linkedin"></i>
+							<li> <a href=""><i class="fa fa-linkedin"></i> -->
 						</ul>
 					</div>
 
@@ -105,7 +105,7 @@
 			</footer>
 
 				<div class="col-sm-12">
-					<p class="source-org copyright">2015 - Création : <a href="">Agence ComTogether</a></p>
+					<p class="source-org copyright">2016 - Création : <a href="">Agence ComTogether</a></p>
 				</div>
 		</div>
 
