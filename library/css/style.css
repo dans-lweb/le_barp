@@ -2596,7 +2596,7 @@ ACCUEIL
 
   .agenda > p:last-child{
     text-align:right;
-    padding-bottom:21px;
+    padding-bottom:3px;
   }
     .agenda p:last-child a{
       text-decoration: none;
@@ -2691,15 +2691,17 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #642340;
   color: #EAEDF2;
   position: relative;
   top: -5px;
-  padding-top: 40px;
+  }
+
+#inner-footer {
   background-image: url("http://localhost/le_barp/wp-content/themes/le_barp/library/images/deco-footer.png");
   background-repeat: no-repeat;
   background-position: right;
-  }
+  background-color: #642340;
+}
 
   .footer h6{
     font-size:18px;
