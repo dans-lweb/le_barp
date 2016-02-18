@@ -2518,6 +2518,12 @@ ACCUEIL
   width:70%;
 }
 
+@media (max-width: 992px){
+main.col-md-9 {
+  width:100%;
+  }}
+
+
 .top-accueil .col-md-3, #inner-content .col-md-3 {
   width:30%;
 }
@@ -2561,7 +2567,7 @@ ACCUEIL
       }
 
 @media (max-width:992px){
-  .top-accueil .col-md-9, .top-accueil .col-md-3{
+  .top-accueil .col-md-9, #inner-content .col-md-3{
     width:100%;
   }
 
