@@ -2514,11 +2514,11 @@ ACCUEIL
   height:284px;
 }
   
-.top-accueil .col-md-9 {
+.top-accueil .col-md-9, main.col-md-9 {
   width:70%;
 }
 
-.top-accueil .col-md-3 {
+.top-accueil .col-md-3, #inner-content .col-md-3 {
   width:30%;
 }
   .sec-menu ul{
