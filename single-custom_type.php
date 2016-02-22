@@ -19,9 +19,9 @@
 
 			<div id="content">
 
-				<div id="inner-content" class="wrap cf">
+				<div id="inner-content" class="wrap cf custom-post">
 
-						<main id="main" class=" col-md-9 col-sm-12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+						<main id="main" class="col-md-9 col-sm-12 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -30,10 +30,10 @@
 								<header class="article-header">
 
 									<h1 class="single-title custom-post-type-title"><?php the_title(); ?></h1>
-									<p class="byline vcard"><?php
+									<!-- <p class="byline vcard"><?php
 										printf( __( 'Posted <time class="updated" datetime="%1$s" itemprop="datePublished">%2$s</time> by <span class="author">%3$s</span> <span class="amp">&</span> filed under %4$s.', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) ), get_the_term_list( $post->ID, 'custom_cat', ' ', ', ', '' ) );
 									?></p>
-
+ -->
 								</header>
 
 								<section class="entry-content cf">
@@ -306,15 +306,15 @@
 							
 						
 					</div>
-								<aside class="col-md-3 col-xs-12">
+								<aside class="col-md-3 col-xs-12 side-doc">
 									<div> 
 									<?php $lebarp_group = get_post_meta( get_the_ID(), '_le_barp_group_demo', true ); ?>
-
+										<h3 > Documents et liens utiles </h3>
 										<ul>
 											<?php foreach ( $lebarp_group as $value ) { ?>
 
 												<li>
-													<h1 class="side_title"><?php echo $value['title'] ?></h1>
+													<h4 class="side_title"><?php echo $value['title'] ?></h4>
 													<a href="<?php echo $value['file_link'] ?>" target="_blank" class="side_link"><?php echo $value['description'] ?></a>
 														<?php } ?>
 

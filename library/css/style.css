@@ -2320,6 +2320,28 @@ POSTS & CONTENT STYLES
 .tags {
   margin: 0; }
 
+
+.custom-post {
+  background-color: white;
+  /*display:flex;*/
+}
+
+/*.custom-post.side-doc{
+  flex:1;
+}*/
+  .custom-post h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#8d3b66;
+    font-weight: bolder;
+    margin-top:20px;
+  }
+
+  .custom-post h2{
+    font-size:18px;
+    color:#8d3b66;
+    font-weight: bold;
+  }
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
@@ -2582,22 +2604,24 @@ main.col-md-9 {
  }
 }
 
-.agenda, .articles{
+.agenda, .articles, .side-doc{
   padding:0;
 }
 
-.agenda {
+.agenda, .side-doc {
   background-color: #ba2454;
   color:white;
 }
 
-  .agenda h3{
+  .agenda h3, .side-doc h3{
     background-color: #fea500;
     padding: 10px 20px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 32px;
   }
+
+  
 
   .agenda li{
     padding:10px 40px;
@@ -2609,7 +2633,11 @@ main.col-md-9 {
       font-weight: bold;
     }
 
-    .agenda li p{
+    .agenda li a:hover, .side-doc li a:hover {
+      color:#fea500;
+    }
+
+    .agenda li p .side-doc li p{
       margin-top:5px;
     }
 
@@ -2712,6 +2740,18 @@ SIDEBARS & ASIDES
   border-radius: 2px;
   margin-bottom: 1.5em; }
 
+
+.side-doc h4{
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+
+.side-doc li a{
+  text-decoration: none;
+  color:white;
+  padding-left: 40px;
+  margin-bottom:10px;
+}
 /*********************
 FOOTER STYLES
 *********************/
